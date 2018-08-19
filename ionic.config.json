@@ -1,0 +1,7 @@
+{
+  "name": "RobotRemote",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
