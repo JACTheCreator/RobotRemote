@@ -1,14 +1,60 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Remote Falcon
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <div style="margin:auto; width:70%;" text-center> 
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+        </ion-col>
+        <ion-col>
+          <div>
+            <button ion-button clear icon-only large (touchstart)="moveForward($event)" (touchend)="moveStop($event)">
+              <ion-icon name="arrow-dropup-circle"></ion-icon>
+            </button>
+          </div>
+        </ion-col>
+        <ion-col>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+          <ion-col>
+            <div>
+              <button ion-button clear icon-only large (touchstart)="moveLeft($event)" (touchend)="moveStop($event)">
+                <ion-icon name="arrow-dropleft-circle"></ion-icon>
+              </button>
+            </div>
+          </ion-col>
+          <ion-col>
+          </ion-col>
+          <ion-col>
+            <div>
+              <button ion-button clear icon-only large (touchstart)="moveRight($event)" (touchend)="moveStop($event)">
+                <ion-icon name="arrow-dropright-circle"></ion-icon>
+              </button>
+              </div>
+          </ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col>
+          </ion-col>
+          <ion-col>
+            <div>
+                <button ion-button clear icon-only large (touchstart)="moveBack($event)" (touchend)="moveStop($event)">
+                  <ion-icon name="arrow-dropdown-circle"></ion-icon>
+                </button>
+            </div>
+          </ion-col>
+          <ion-col>
+          </ion-col>
+        </ion-row>
+    </ion-grid>
+  </div>
 </ion-content>

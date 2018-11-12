@@ -1,8 +1,7 @@
 {
-  "name": "RobotRemote",
+  "name": "RemoteFalcon",
   "integrations": {
     "cordova": {}
   },
-  "type": "ionic-angular",
-  "pro_id": "c5b9452d"
+  "type": "ionic-angular"
 }
