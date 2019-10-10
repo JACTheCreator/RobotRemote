@@ -36,6 +36,7 @@ void setup()
   WiFi.softAP(ap_ssid, ap_password);
   
   server.on("/move", handleRobotMovement); 
+  
   server.begin();
 
   /***************************************
@@ -59,6 +60,11 @@ void loop()
 
 void handleRobotMovement() 
 { 
+  server.sendHeader("Access-Control-Allow-Origin", "*");
+  server.sendHeader("Access-Control-Max-Age", "10000");
+  server.sendHeader("Access-Control-Allow-Methods", "PUT,POST,GET,OPTIONS");
+  server.sendHeader("Access-Control-Allow-Headers", "*");
+
   /**
    *  Handling GET Request
    */
