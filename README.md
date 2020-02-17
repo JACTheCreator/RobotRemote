@@ -58,4 +58,17 @@ A simple bot that can be controlled via a mobile app.
 }
 ```
 
-#### NB: Please not that the **SPEED** of the bot is a values between **0 and 255**. The speed provided of the JSON is also **optional**. Everything in the JSON is case sensitivity..
+#### NB: Please not that the **SPEED** of the bot is a values between **0 and 255**. The speed provided of the JSON is also **optional**. Everything in the JSON is case sensitivity.
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://github.com/JACTheCreator/ask-sdk-starter-custom-skill-template-python/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Authors
+
+- **Jermaine Coates** - [JACTheCreator](https://github.com/JACTheCreator)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/JACTheCreator/RobotRemote/blob/master/LICENSE) file for details
+
